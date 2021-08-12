@@ -1,0 +1,7 @@
+.idea
+!.idea/checkstyle-idea.xml
+!.idea/codeStyles
+*.iws
+*.iml
+*.ipr
+design-pattern/target
