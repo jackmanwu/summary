@@ -1,5 +1,6 @@
 package gaopin;
 
+import interview.mayiguoji.MaxProfit;
 import org.junit.Test;
 
 import java.util.List;
@@ -27,7 +28,7 @@ public class JingDianTest {
 
     @Test
     public void testMaxProfit() {
-        int[] prices = {7, 1, 5, 3, 6, 4};
+        int[] prices = {5, 3, 8, 18, 11, 12, 15};
         MaxProfit maxProfit = new MaxProfit();
         int r = maxProfit.maxProfit(prices);
         System.out.println(r);
