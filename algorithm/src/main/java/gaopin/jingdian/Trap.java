@@ -1,4 +1,4 @@
-package gaopin;
+package gaopin.jingdian;
 
 /**
  * 接雨水

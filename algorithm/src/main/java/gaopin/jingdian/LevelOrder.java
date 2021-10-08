@@ -1,4 +1,6 @@
-package gaopin;
+package gaopin.jingdian;
+
+import gaopin.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

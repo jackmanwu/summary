@@ -4,6 +4,7 @@ import java.util.Objects;
 
 /**
  * 手撕红黑树
+ *
  * @param <K>
  * @param <V>
  */
@@ -37,6 +38,7 @@ public class MyHashMap<K, V> {
         int hash = hash(key);
         int index = (capacity - 1) & hash;
         Node<K, V> current = data[index];
+        V oldValue = null;
         if (current == null) {
             data[index] = new Node<>(key, value, null, hash);
         } else {
@@ -44,9 +46,9 @@ public class MyHashMap<K, V> {
             while (true) {
                 //查找是否存在该节点
                 if (current.hash == hash && (Objects.equals(key, current.key))) {
-                    V oldValue = current.value;
+                    oldValue = current.value;
                     current.value = value;
-                    return oldValue;
+                    break;
                 }
                 if (current.next == null) {
                     current.next = new Node<>(key, value, null, hash);
@@ -60,7 +62,7 @@ public class MyHashMap<K, V> {
             //达到负载因子，需扩容
             resize();
         }
-        return null;
+        return oldValue;
     }
 
     public V get(K key) {

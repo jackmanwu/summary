@@ -1,4 +1,4 @@
-package gaopin;
+package gaopin.jingdian;
 
 /**
  * 验证回文串

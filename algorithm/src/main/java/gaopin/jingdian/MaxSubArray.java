@@ -1,4 +1,4 @@
-package gaopin;
+package gaopin.jingdian;
 
 /**
  * 最大子序和

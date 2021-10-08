@@ -1,4 +1,4 @@
-package gaopin;
+package gaopin.jingdian;
 
 /**
  * 买卖股票的最佳时机

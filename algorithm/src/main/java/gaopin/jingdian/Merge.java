@@ -1,4 +1,4 @@
-package gaopin;
+package gaopin.jingdian;
 
 /**
  * 合并两个有序数组

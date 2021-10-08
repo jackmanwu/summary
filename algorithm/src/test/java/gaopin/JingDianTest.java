@@ -1,5 +1,6 @@
 package gaopin;
 
+import gaopin.jingdian.*;
 import interview.mayiguoji.MaxProfit;
 import org.junit.Test;
 

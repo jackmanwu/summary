@@ -1,4 +1,4 @@
-package gaopin;
+package gaopin.jingdian;
 
 import java.util.HashMap;
 import java.util.Map;
