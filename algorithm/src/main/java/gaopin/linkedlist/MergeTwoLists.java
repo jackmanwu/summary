@@ -30,6 +30,13 @@ public class MergeTwoLists {
         return preHead.next;
     }
 
+    /**
+     * 递归
+     *
+     * @param l1
+     * @param l2
+     * @return
+     */
     public ListNode mergeTwoListsV2(ListNode l1, ListNode l2) {
         if (l1 == null) {
             return l2;
