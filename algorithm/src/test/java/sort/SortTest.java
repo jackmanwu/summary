@@ -22,4 +22,14 @@ public class SortTest {
         int r2 = topK.topK(sales, 7);
         assert r2 == -1;
     }
+
+    @Test
+    public void testQuickSort2() {
+        QuickSort2 quickSort2 = new QuickSort2();
+        int[] nums = new int[]{5, 1, 1, 2, 0, 0};
+        quickSort2.sortArray(nums);
+        for (int num : nums) {
+            System.out.print(num + " ");
+        }
+    }
 }

@@ -1,3 +1,5 @@
+package tuji;
+
 import gaopin.ListNode;
 import org.junit.Test;
 import tuji.*;
